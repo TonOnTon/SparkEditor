@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iltwl\Documents\SparkEditor\bulid\CMakeFiles\1fc18c2d6b43b8ac31388b238650b8e5\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{181BF227-A9D0-36DD-91ED-416443871365}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/iltwl/Documents/SparkEditor/extlibs/SparkEngine/extlibs/SFML/src/SFML/System/CMakeLists.txt
+  Clock.cpp
+  Err.cpp
+  Sleep.cpp
+  String.cpp
+  Time.cpp
+  FileInputStream.cpp
+  MemoryInputStream.cpp
+  SleepImpl.cpp
+  Generating Code...
+     Creating library C:/Users/iltwl/Documents/SparkEditor/bulid/lib/Debug/sfml-system-d.lib and object C:/Users/iltwl/Documents/SparkEditor/bulid/lib/Debug/sfml-system-d.exp
+  sfml-system.vcxproj -> C:\Users\iltwl\Documents\SparkEditor\bulid\bin\Debug\sfml-system-d-3.dll

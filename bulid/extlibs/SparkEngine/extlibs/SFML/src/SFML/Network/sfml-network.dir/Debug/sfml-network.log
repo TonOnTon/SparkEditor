@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/iltwl/Documents/SparkEditor/extlibs/SparkEngine/extlibs/SFML/src/SFML/Network/CMakeLists.txt
+  Ftp.cpp
+  Http.cpp
+  IpAddress.cpp
+  Packet.cpp
+  Socket.cpp
+  SocketSelector.cpp
+  TcpListener.cpp
+  TcpSocket.cpp
+  UdpSocket.cpp
+  SocketImpl.cpp
+  Generating Code...
+     Creating library C:/Users/iltwl/Documents/SparkEditor/bulid/lib/Debug/sfml-network-d.lib and object C:/Users/iltwl/Documents/SparkEditor/bulid/lib/Debug/sfml-network-d.exp
+  sfml-network.vcxproj -> C:\Users\iltwl\Documents\SparkEditor\bulid\bin\Debug\sfml-network-d-3.dll

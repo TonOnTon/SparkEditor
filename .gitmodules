@@ -1,0 +1,3 @@
+[submodule "extlibs/SparkEngine"]
+	path = extlibs/SparkEngine
+	url = https://github.com/TonOnTon/SparkEngine
