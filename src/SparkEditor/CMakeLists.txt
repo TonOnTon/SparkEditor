@@ -5,7 +5,10 @@ set(SRC
     ${SRCROOT}/Main.cpp
 
     ${INCROOT}/EditorWorld.hpp
-    ${SRCROOT}/EditorWorld.cpp    
+    ${SRCROOT}/EditorWorld.cpp
+    
+    ${INCROOT}/TileMapEditorLevel.hpp
+    ${SRCROOT}/TileMapEditorLevel.cpp    
 )
 
 add_executable(${PROJECT_NAME} ${SRC})

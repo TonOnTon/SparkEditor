@@ -1,13 +1,12 @@
 #pragma once
 
-#include "World.hpp"
-#include "TileMapEditorLevel.hpp"
+#include "Level.hpp"
 
-class EditorWorld : public World
+class TileMapEditorLevel : public Level
 {
 public:
-    EditorWorld();
-    ~EditorWorld();
+    TileMapEditorLevel();
+    ~TileMapEditorLevel();
 
     virtual void init() override;
     virtual void handleEvent(sf::Event& event) override;
@@ -15,5 +14,4 @@ public:
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) override;
 
 private:
-    TileMapEditorLevel m_tileMapEditorLevel;
 };
