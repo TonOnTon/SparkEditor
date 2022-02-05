@@ -5,8 +5,8 @@
 int main()
 {
     EditorWorld world;
+    g_engine.setWorld(world);
 
-    Engine engine(world);
-    engine.init();
-    engine.run();
+    g_engine.init();
+    g_engine.run();
 }

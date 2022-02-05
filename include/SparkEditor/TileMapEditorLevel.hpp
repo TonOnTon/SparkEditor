@@ -1,6 +1,8 @@
 #pragma once
 
+#include "TileMapEditorCamera.hpp"
 #include "Level.hpp"
+#include "TileMap.hpp"
 
 class TileMapEditorLevel : public Level
 {
@@ -14,4 +16,6 @@ public:
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) override;
 
 private:
+    TileMap m_tileMap;
+    TileMapEditorCamera m_camera;
 };

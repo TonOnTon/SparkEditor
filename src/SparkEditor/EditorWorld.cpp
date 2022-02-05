@@ -1,7 +1,5 @@
 #include "EditorWorld.hpp"
 
-#include <iostream>
-
 EditorWorld::EditorWorld()
 {
 }
@@ -12,8 +10,6 @@ EditorWorld::~EditorWorld()
 
 void EditorWorld::init()
 {
-    std::cout << "Editor::init\n";
-
     m_level = &m_tileMapEditorLevel;
 
     World::init();

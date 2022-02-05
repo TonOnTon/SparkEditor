@@ -1,9 +1,10 @@
 #include "TileMapEditorLevel.hpp"
 
-#include <iostream>
+#include "Engine.hpp"
 
 TileMapEditorLevel::TileMapEditorLevel()
 {
+    g_engine.setCamera(m_camera);
 }
 
 TileMapEditorLevel::~TileMapEditorLevel()
@@ -12,22 +13,22 @@ TileMapEditorLevel::~TileMapEditorLevel()
 
 void TileMapEditorLevel::init()
 {
-    std::cout << "TileMapEditorLevel::init\n";
-
-    Level::init();
+    m_camera.init();
+    m_tileMap.load("test.map");
 }
 
 void TileMapEditorLevel::handleEvent(sf::Event& event)
 {
-    Level::handleEvent(event);
+    m_camera.handleEvent(event);
 }
 
 void TileMapEditorLevel::update(float dt)
 {
-    Level::update(dt);
+    m_camera.update(dt);
 }
 
 void TileMapEditorLevel::draw(sf::RenderTarget& target, sf::RenderStates states)
 {
-    Level::draw(target, states);
+    m_camera.draw(target, states);
+    m_tileMap.draw(target, states);
 }
